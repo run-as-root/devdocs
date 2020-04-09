@@ -1,21 +1,21 @@
 label: Security and Compliance
 pages:
-      - label: Security
+    - label: Security
+      versionless: true
+      url: /security/security-and-compliance.html
+      children:
+
+      - label: Content Security Policy
         versionless: true
-        url: /security/security-and-compliance.html
-        children:
+        url: /security/content-security-policy.html
 
-        - label: Content Security Policy
-          versionless: true
-          url: /security/content-security-policy.html
+    - label: Industry Compliance
+      versionless: true
+      url: /compliance/industry-compliance.html
 
-      - label: Industry Compliance
-        versionless: true
-        url: /compliance/industry-compliance.html
-
-      - label: Privacy Regulations
-      
-        children:
+    - label: Privacy Regulations
+    
+      children:
 
         - label: CCPA
           versionless: true
@@ -37,6 +37,6 @@ pages:
       versionless: true
       children:
 
-        - label: Adobe Privacy JavaScript Library
-          versionless: true
-          url: /compliance/privacy/adobe-privacy-js-library.html
+      - label: Adobe Privacy JavaScript Library
+        versionless: true
+        url: /compliance/privacy/adobe-privacy-js-library.html
